@@ -1,0 +1,1154 @@
+{
+  "scope": "lugia",
+  "moduleName": "FormQuery",
+  "version": "1.0.0",
+  "templateName": "henghe_query",
+  "title": "恒河-查询页",
+  "template": {
+    "type": "PolarBear",
+    "designPoint": [-24160, -24530.5],
+    "scale": 0.9,
+    "areaId2ChildPadIndexString": {
+      "AddDialog": "mainPad.AddDialog",
+      "AddForm": "AddDialog.AddForm",
+      "ace#]S0": "mainPad.DeleteDialog"
+    },
+    "widgetId2ChildPad": {
+      "AddDialog": {
+        "point": [281.31, 267.01],
+        "width": 640,
+        "index": 1,
+        "height": 194,
+        "zIndex": 1000,
+        "type": "ChildPad",
+        "layers": [
+          { "i": "wbch2F&0", "z": 0, "w": 4, "h": 12, "p": [20.34, 19.55] },
+          {
+            "i": "AddForm",
+            "z": 1,
+            "w": 640,
+            "h": 46,
+            "p": [0, 69],
+            "s": {
+              "w": "r",
+              "h": "a",
+              "wr": { "x": "100%" },
+              "hr": { "x": "calc(70vh - 50px)" },
+              "f": { "l": "r", "t": "r", "r": "r", "b": "r" }
+            }
+          },
+          { "i": "AddDialogTitle", "z": 2, "w": 300, "h": 20, "p": [32.55, 15.05] },
+
+          { "i": "wbIBU872", "z": 3, "w": 4, "h": 12, "p": [20.34, 19.55] },
+          {
+            "i": "OkButton",
+            "z": 4,
+            "w": 92,
+            "h": 36,
+            "p": [218.18, 23.629999999999995],
+            "pt": "rb"
+          },
+          {
+            "i": "CancelButton",
+            "z": 5,
+            "w": 92,
+            "h": 36,
+            "p": [344.41999999999996, 24.129999999999995],
+            "pt": "rb"
+          },
+          { "i": "wbB6IH2", "z": 6, "w": 640, "h": 1, "p": [0.81, 48.04] }
+        ],
+        "idSeq": 0,
+        "id2WidgetInfo": {
+          "wbIBU872": {
+            "w": "BasicElements",
+            "m": "@lugia/lugia-web",
+            "v": "1.0.0",
+            "p": { "lugiaHidden": false, "shape": "square" },
+            "i": "wbIBU872"
+          },
+          "AddDialogTitle": {
+            "w": "Label",
+            "m": "@lugia/lugia-web",
+            "v": "1.0.0",
+            "p": { "lugiaHidden": false, "showPrefix": false, "prefix": "*" },
+            "i": "AddDialogTitle"
+          },
+          "CancelButton": {
+            "w": "Button",
+            "a": "PlainButton",
+            "m": "@lugia/lugia-web",
+            "v": "1.0.0",
+            "p": {
+              "lugiaHidden": false,
+              "disabled": false,
+              "shape": "default",
+              "type": "primary",
+              "plain": true,
+              "size": "default",
+              "text": "取消",
+              "block": false,
+              "viewClass": "PlainButton-m-theme-viewClass"
+            },
+            "i": "CancelButton"
+          },
+          "wbB6IH2": {
+            "w": "BasicElements",
+            "m": "@lugia/lugia-web",
+            "v": "1.0.0",
+            "p": {
+              "lugiaHidden": false,
+              "shape": "square",
+              "viewClass": "BasicElements-theme-viewClass"
+            },
+            "i": "wbB6IH2"
+          },
+          "AddForm": {
+            "childAreaId": "AddForm",
+            "w": "MonkeyKing",
+            "m": "@lugia/lugia-web",
+            "v": "1.0.0",
+            "p": {
+              "lugiaHidden": false,
+              "type": "transparent",
+              "showTipBottomLine": false,
+              "width": 350,
+              "height": 130,
+              "TargetContainer": {
+                "widgetName": "Card",
+                "module": "@lugia/lugia-web",
+                "version": "1.0.0",
+                "props": {
+                  "lugiaHidden": false,
+                  "title": "卡片头部标题",
+                  "type": "transparent",
+                  "showTipBottomLine": false,
+                  "width": 350,
+                  "height": 130
+                },
+                "defaultTheme": {
+                  "Container": { "normal": { "width": 750, "height": 400 } },
+                  "CardTitleHeadContainer": { "normal": { "padding": { "top": 0 }, "height": 50 } }
+                },
+                "monkeyType": "Point"
+              }
+            },
+            "i": "AddForm"
+          },
+          "wbch2F&0": {
+            "w": "BasicElements",
+            "m": "@lugia/lugia-web",
+            "v": "1.0.0",
+            "p": { "lugiaHidden": false, "shape": "square" },
+            "i": "wbch2F&0"
+          },
+          "OkButton": {
+            "w": "Button",
+            "m": "@lugia/lugia-web",
+            "v": "1.0.0",
+            "p": {
+              "lugiaHidden": false,
+              "disabled": false,
+              "shape": "default",
+              "type": "primary",
+              "size": "default",
+              "text": "确定",
+              "block": false,
+              "viewClass": "Button-m-theme-viewClass"
+            },
+            "i": "OkButton"
+          }
+        },
+        "id": "AddDialog",
+        "lastIndex": 0,
+        "fatherId": "mainPad",
+        "widgetId": "AddDialog",
+        "group": false,
+        "templateConfig": {}
+      },
+      "AddForm": {
+        "point": [0, 69],
+        "width": 640,
+        "index": 2,
+        "scroller": "xy",
+        "height": 46,
+        "zIndex": 1000,
+        "type": "ChildPad",
+        "layers": [],
+        "idSeq": 0,
+        "id2WidgetInfo": {},
+        "id": "AddForm",
+        "lastIndex": 0,
+        "fatherId": "AddDialog",
+        "widgetId": "AddForm",
+        "group": false,
+        "templateConfig": {}
+      },
+      "DeleteDialog": {
+        "point": [852.61, 531.28],
+        "width": 520,
+        "index": 3,
+        "height": 194,
+        "zIndex": 1000,
+        "type": "ChildPad",
+        "layers": [
+          { "i": "wbctVpd2", "z": 0, "w": 115, "h": 20, "p": [26.45, 15.05] },
+          { "i": "wbcBrNR6", "z": 1, "w": 520, "h": 1, "p": [0.66, 48.04] },
+          { "i": "wbcszy&0", "z": 2, "w": 210, "h": 33, "p": [154.55, 80.5] },
+          { "i": "wbcsfl80", "z": 3, "w": 4, "h": 12, "p": [20.31, 20.05] },
+          { "i": "OkDelete", "z": 4, "w": 92, "h": 36, "p": [277.05, 138.56] },
+          { "i": "CancelDelete", "z": 5, "w": 92, "h": 36, "p": [150.81, 139.06] }
+        ],
+        "idSeq": 0,
+        "id2WidgetInfo": {
+          "wbctVpd2": {
+            "childAreaId": "ace#]S0",
+            "w": "Label",
+            "m": "@lugia/lugia-web",
+            "v": "1.0.0",
+            "p": { "lugiaHidden": false, "text": "删除", "showPrefix": false, "prefix": "*" },
+            "i": "wbctVpd2"
+          },
+          "wbcBrNR6": {
+            "childAreaId": "ace#]S0",
+            "w": "BasicElements",
+            "m": "@lugia/lugia-web",
+            "v": "1.0.0",
+            "p": {
+              "lugiaHidden": false,
+              "shape": "square",
+              "viewClass": "BasicElements-theme-viewClass"
+            },
+            "i": "wbcBrNR6"
+          },
+          "wbcszy&0": {
+            "childAreaId": "ace#]S0",
+            "w": "Label",
+            "m": "@lugia/lugia-web",
+            "v": "1.0.0",
+            "p": {
+              "lugiaHidden": false,
+              "text": "请确认是否要删除此条数据？",
+              "showPrefix": false,
+              "prefix": "*"
+            },
+            "i": "wbcszy&0"
+          },
+          "wbcsfl80": {
+            "w": "BasicElements",
+            "m": "@lugia/lugia-web",
+            "v": "1.0.0",
+            "p": { "lugiaHidden": false, "shape": "square" },
+            "i": "wbcsfl80"
+          },
+          "CancelDelete": {
+            "w": "Button",
+            "a": "PlainButton",
+            "m": "@lugia/lugia-web",
+            "v": "1.0.0",
+            "p": {
+              "lugiaHidden": false,
+              "disabled": false,
+              "shape": "default",
+              "type": "primary",
+              "plain": true,
+              "size": "default",
+              "text": "取消",
+              "block": false,
+              "viewClass": "PlainButton-m-theme-viewClass"
+            },
+            "i": "CancelDelete"
+          },
+          "OkDelete": {
+            "w": "Button",
+            "m": "@lugia/lugia-web",
+            "v": "1.0.0",
+            "p": {
+              "lugiaHidden": false,
+              "disabled": false,
+              "shape": "default",
+              "type": "primary",
+              "size": "default",
+              "text": "确定",
+              "block": false,
+              "viewClass": "Button-m-theme-viewClass"
+            },
+            "i": "OkDelete"
+          }
+        },
+        "id": "ace#]S0",
+        "lastIndex": 0,
+        "fatherId": "mainPad",
+        "widgetId": "DeleteDialog",
+        "group": false,
+        "templateConfig": {}
+      }
+    },
+    "forkDependencies": [],
+    "mainDependencies": [
+      { "version": "1.0.0", "module": "@lugia/lugia-web", "widgetName": "Button" },
+      { "version": "1.0.0", "module": "@lugia/lugia-web", "widgetName": "Breadcrumb" },
+      { "version": "1.0.0", "module": "@lugia/lugia-web", "widgetName": "Input" },
+      { "version": "1.0.0", "module": "@/components", "widgetName": "SmartTable" },
+      { "version": "1.0.0", "module": "@lugia/lugia-web", "widgetName": "Pagination" },
+      { "version": "1.0.0", "module": "@lugia/lugia-web", "widgetName": "Modal" },
+      { "version": "1.0.0", "module": "@lugia/lugia-web", "widgetName": "BasicElements" },
+      { "version": "1.0.0", "module": "@lugia/lugia-web", "widgetName": "Card" },
+      { "version": "1.0.0", "module": "@lugia/lugia-web", "widgetName": "Label" }
+    ],
+    "forkPad": {
+      "point": [-24160, -24530.5],
+      "width": 50000,
+      "index": 0,
+      "height": 50000,
+      "zIndex": 4000,
+      "type": "ForkPad",
+      "layers": [],
+      "idSeq": 67,
+      "id2WidgetInfo": {},
+      "id": "forkPad",
+      "lastIndex": 41,
+      "group": false,
+      "templateConfig": {}
+    },
+    "mainPad": {
+      "point": [0, -34.5],
+      "width": 1680,
+      "index": 0,
+      "height": 1008,
+      "zIndex": 4000,
+      "type": "MainPad",
+      "layers": [
+        { "i": "AddButton", "z": 0, "w": 80, "h": 36, "p": [1567.64, 69.97] },
+        { "i": "Router", "z": 1, "w": 1616, "h": 30, "p": [32, 20.14] },
+        { "i": "QueryInput", "z": 2, "w": 224, "h": 36, "p": [32, 70.47] },
+        {
+          "i": "Table",
+          "z": 3,
+          "w": 1620,
+          "h": 810,
+          "p": [32, 126.28],
+          "s": { "w": "r", "h": "a", "f": { "l": "r", "t": "r", "r": "r", "b": "r" } }
+        },
+        { "i": "Page", "z": 4, "w": 1617, "h": 32, "p": [31.5, 956.05] },
+        {
+          "i": "AddDialog",
+          "z": 5,
+          "w": 640,
+          "h": 194,
+          "p": [281.31, 267.01],
+          "s": {
+            "w": "r",
+            "h": "r",
+            "hr": { "x": "80vh" },
+            "f": { "l": "r", "t": "r", "r": "r", "b": "r" }
+          }
+        },
+        {
+          "i": "DeleteDialog",
+          "z": 6,
+          "w": 520,
+          "h": 194,
+          "p": [852.61, 531.28],
+          "s": {
+            "w": "r",
+            "h": "r",
+            "hr": { "x": "80vh" },
+            "f": { "l": "r", "t": "r", "r": "r", "b": "r" }
+          }
+        }
+      ],
+      "idSeq": 91291,
+      "id2WidgetInfo": {
+        "AddDialog": {
+          "childAreaId": "AddDialog",
+          "w": "MonkeyKing",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "injectLugiad": { "type": "Modal" },
+            "cancelText": "取消",
+            "okText": "确定",
+            "maskClosable": true,
+            "viewClass": "Modal-theme-viewClass",
+            "width": 100,
+            "height": 30,
+            "footer": false,
+            "TargetContainer": {
+              "widgetName": "Modal",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "footer": false,
+                "lugiaHidden": false,
+                "injectLugiad": { "type": "Modal" },
+                "cancelText": "取消",
+                "okText": "确定",
+                "maskClosable": true,
+                "viewClass": "Modal-theme-viewClass",
+                "width": 100,
+                "height": 30
+              },
+              "defaultTheme": { "Container": { "normal": { "width": 520 } } },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "AddDialog"
+        },
+        "Router": {
+          "w": "Breadcrumb",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": { "lugiaHidden": false, "viewClass": "Breadcrumb-theme-viewClass" },
+          "i": "Router"
+        },
+        "QueryInput": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "disabled": false,
+            "viewClass": "Input-m-theme-viewClass",
+            "size": "default",
+            "placeholder": "请输入要查询的内容",
+            "suffix": "lugia-icon-financial_search"
+          },
+          "i": "QueryInput"
+        },
+        "Table": {
+          "w": "SmartTable",
+          "m": "@/components",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "columns": [
+              { "title": "Name", "dataIndex": "name", "key": "name" },
+              { "title": "Age", "dataIndex": "age", "key": "age" },
+              { "title": "Address", "dataIndex": "address", "key": "address" }
+            ],
+            "data": [
+              { "name": "Jack", "age": 28, "address": "some where" },
+              { "name": "Rose", "age": 36, "address": "some where" },
+              { "name": "Bob", "age": 25, "address": "some where" }
+            ],
+            "indentSize": 15,
+            "rowKey": "key",
+            "showHeader": true,
+            "tableStyle": "bordered",
+            "viewClass": "Table-theme-viewClass"
+          },
+          "i": "Table"
+        },
+        "AddButton": {
+          "w": "Button",
+          "a": "IconButton",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "disabled": false,
+            "shape": "default",
+            "type": "primary",
+            "size": "default",
+            "icon": "lugia-icon-reminder_plus",
+            "text": "新增",
+            "block": false,
+            "viewClass": "IconButton-m-theme-viewClass"
+          },
+          "i": "AddButton"
+        },
+        "Page": {
+          "w": "Pagination",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "total": 1,
+            "blockList": ["Page", "PageInput", "Total", "PageSize"],
+            "viewClass": "Pagination-theme-viewClass",
+            "align": "Right"
+          },
+          "i": "Page"
+        },
+        "DeleteDialog": {
+          "childAreaId": "ace#]S0",
+          "w": "MonkeyKing",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "injectLugiad": { "type": "Modal" },
+            "cancelText": "取消",
+            "okText": "确定",
+            "maskClosable": true,
+            "viewClass": "Modal-theme-viewClass",
+            "width": 100,
+            "height": 30,
+            "footer": false,
+            "TargetContainer": {
+              "widgetName": "Modal",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "footer": false,
+                "lugiaHidden": false,
+                "injectLugiad": { "type": "Modal" },
+                "cancelText": "取消",
+                "okText": "确定",
+                "maskClosable": true,
+                "viewClass": "Modal-theme-viewClass",
+                "width": 100,
+                "height": 30
+              },
+              "defaultTheme": { "Container": { "normal": { "width": 520 } } },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "DeleteDialog"
+        }
+      },
+      "id": "mainPad",
+      "lastIndex": 71,
+      "group": false,
+      "templateConfig": {},
+      "children": [
+        {
+          "widgetId": "AddDialog",
+          "path": ["@root"],
+          "children": [{ "widgetId": "AddForm", "path": ["@root", "AddDialog"] }]
+        },
+        { "widgetId": "DeleteDialog", "path": ["@root"] }
+      ],
+      "backgroudColor": "#f8f8f8"
+    },
+    "themes": {
+      "widgetId2ThemeInfo": {
+        "Router": {
+          "Container": {
+            "normal": {
+              "width": 1616,
+              "background": {
+                "color": "#ffffff"
+              }
+            }
+          },
+          "BreadcrumbItem": {
+            "ItemWrap": {
+              "normal": {
+                "padding": {
+                  "top": "6",
+                  "right": "",
+                  "bottom": "",
+                  "left": "6"
+                }
+              }
+            }
+          }
+        },
+        "QueryInput": {
+          "Container": {
+            "normal": {
+              "width": 224,
+              "height": 36,
+              "borderRadius": { "topLeft": 6, "topRight": 6, "bottomRight": 6, "bottomLeft": 6 }
+            }
+          }
+        },
+        "Table": { "Container": { "normal": { "width": 1620, "height": 810 } } },
+        "Page": { "Container": { "normal": { "width": 1617 } } },
+        "AddDialog": { "Container": { "normal": { "width": 640, "height": 194 } } },
+        "AddForm": {
+          "Container": { "normal": { "width": 640, "height": 46 } },
+          "CardTitleHeadContainer": { "normal": { "padding": { "top": 0 }, "height": 50 } }
+        },
+        "AddDialogTitle": {
+          "Container": {
+            "normal": {
+              "fontSize": 12,
+              "color": "#333",
+              "textAlign": "left",
+              "width": 300,
+              "height": 20,
+              "font": { "size": 16 }
+            }
+          },
+          "LabelPrefix": { "normal": { "color": "#333", "fontSize": 12, "textAlign": "left" } }
+        },
+        "wbIBU872": {
+          "Container": {
+            "normal": {
+              "width": 4,
+              "height": 12,
+              "background": { "color": "#4d63ff" },
+              "borderRadius": { "topLeft": 2, "topRight": 2, "bottomRight": 2, "bottomLeft": 2 }
+            }
+          }
+        },
+        "AddButton": { "Container": { "normal": { "height": 36, "width": 80 } } },
+        "OkButton": {
+          "Container": {
+            "normal": {
+              "height": 36,
+              "width": 92,
+              "borderRadius": { "topLeft": 6, "topRight": 6, "bottomRight": 6, "bottomLeft": 6 }
+            }
+          }
+        },
+        "CancelButton": {
+          "Container": {
+            "normal": {
+              "height": 36,
+              "width": 92,
+              "borderRadius": { "topLeft": 6, "topRight": 6, "bottomRight": 6, "bottomLeft": 6 }
+            }
+          }
+        },
+        "wbB6IH2": {
+          "Container": {
+            "normal": { "width": 640, "height": 1, "background": { "color": "#EFF0F4" } }
+          }
+        },
+        "DeleteDialog": { "Container": { "normal": { "width": 520, "height": 194 } } },
+        "wbctVpd2": {
+          "Container": {
+            "normal": {
+              "fontSize": 12,
+              "color": "#333",
+              "textAlign": "left",
+              "width": 114.4,
+              "height": 20,
+              "font": { "size": 16 }
+            }
+          },
+          "LabelPrefix": { "normal": { "color": "#333", "fontSize": 12, "textAlign": "left" } }
+        },
+        "wbcBrNR6": {
+          "Container": {
+            "normal": { "width": 520, "height": 1, "background": { "color": "#EFF0F4" } }
+          }
+        },
+        "wbcszy&0": {
+          "Container": {
+            "normal": {
+              "fontSize": 12,
+              "color": "#333",
+              "textAlign": "left",
+              "width": 210,
+              "height": 33,
+              "font": { "size": 16 }
+            }
+          },
+          "LabelPrefix": { "normal": { "color": "#333", "fontSize": 12, "textAlign": "left" } }
+        },
+        "OkDelete": {
+          "Container": {
+            "normal": {
+              "height": 36,
+              "width": 92,
+              "borderRadius": { "topLeft": 6, "topRight": 6, "bottomRight": 6, "bottomLeft": 6 }
+            }
+          }
+        },
+        "CancelDelete": {
+          "Container": {
+            "normal": {
+              "height": 36,
+              "width": 92,
+              "borderRadius": { "topLeft": 6, "topRight": 6, "bottomRight": 6, "bottomLeft": 6 }
+            }
+          }
+        },
+        "wbch2F&0": {
+          "Container": {
+            "normal": {
+              "width": 4,
+              "height": 12,
+              "background": { "color": "#4d63ff" },
+              "borderRadius": { "topLeft": 2, "topRight": 2, "bottomRight": 2, "bottomLeft": 2 }
+            }
+          }
+        },
+        "wbcsfl80": {
+          "Container": {
+            "normal": {
+              "width": 4,
+              "height": 12,
+              "background": { "color": "#4d63ff" },
+              "borderRadius": { "topLeft": 2, "topRight": 2, "bottomRight": 2, "bottomLeft": 2 }
+            }
+          }
+        }
+      }
+    },
+    "lugiax": {
+      "page2mutation": {},
+      "widgetId2PropsName2BindInfo": {},
+      "widgetId2EventName2MutationInfo": {},
+      "pageData": {
+        "dependenciesModels": [],
+        "state": {},
+        "scripts": {},
+        "bindEvent": {},
+        "lifeScripts": {},
+        "model": "0e58d3c7-396c-4587-b47b-15c03257e2ff"
+      }
+    },
+
+    "assets": { "widgetIdHasAssetPropsName": {}, "widgetIdHasAssetThemeName": {} },
+    "widgetId2Locked": {
+      "AddButton": { "type": "Normal" },
+      "Router": { "type": "Normal" },
+      "QueryInput": { "type": "Normal" },
+      "Table": { "type": "Normal" },
+      "Page": { "type": "Normal" }
+    },
+    "widgetId2Hidden": {},
+    "widgetId2Title": {
+      "AddForm": "新增表单",
+      "AddDialog": "新增对话框",
+      "Page": "分页",
+      "Table": "查询表格",
+      "QueryInput": "查询条件",
+      "Router": "导航",
+      "AddButton": "新增按钮",
+      "AddDialogTitle": "新增对话框标题",
+      "wbIBU872": "对话框修饰",
+      "wbB6IH2": "对话框分割线",
+      "CancelButton": "取消",
+      "OkButton": "确定",
+      "DeleteDialog": "删除对话框",
+      "CancelDelete": "取消删除",
+      "OkDelete": "确定删除"
+    },
+    "zip": true,
+    "areaTemplate": [
+      {
+        "areaId": "mainPad",
+        "title": "路由信息",
+        "widgetId": "Router",
+        "slot": {
+          "checked": true,
+          "title": "路由信息",
+          "dataKey": "router",
+          "widgetInfo": {
+            "props": {
+              "routes": {
+                "getValue": "const itemRouter =  item.router || [] ;const router = [...itemRouter.map(({title})=>({title})), { path: vars.path, title: vars.title } ]; return router; "
+              }
+            }
+          },
+          "metaFields": [
+            {
+              "name": "Router",
+              "title": "路由信息",
+              "columns": [
+                { "title": "显示文本", "dataIndex": "title", "key": "title", "type": "Input" }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "areaId": "AddForm",
+        "slot": {
+          "option": { "fixedMainPadHeight": true },
+          "checked": true,
+          "minHeight": 80,
+          "slotType": "GridFlow",
+          "columnCount": 1,
+          "title": "表单",
+          "margin": { "left": 0, "top": 0, "bottom": 0 },
+          "metaFields": [
+            {
+              "title": "表单",
+              "name": "QueryForm",
+              "columns": [
+                {
+                  "title": "列名",
+                  "dataIndex": "key",
+                  "key": "key",
+                  "type": "Input",
+                  "defaultValue": "search",
+                  "mark": 1
+                },
+                {
+                  "title": "文本",
+                  "dataIndex": "title",
+                  "key": "title",
+                  "type": "Input",
+                  "defaultValue": "查询",
+                  "mark": 2
+                },
+                {
+                  "title": "错误提示",
+                  "dataIndex": "help",
+                  "key": "help",
+                  "type": "Input",
+                  "defaultValue": "",
+                  "mark": 3
+                },
+                {
+                  "title": "类型",
+                  "dataIndex": "type",
+                  "key": "type",
+                  "type": "Select",
+                  "defaultValue": "string",
+                  "selectData": "lugiaWebForm",
+                  "mark": 4
+                },
+                {
+                  "title": "是否必填",
+                  "dataIndex": "required",
+                  "key": "required",
+                  "type": "Select",
+                  "selectData": [
+                    { "value": false, "text": "否" },
+                    { "value": true, "text": "是" }
+                  ],
+                  "mark": 5
+                }
+              ]
+            }
+          ],
+          "blocks": [
+            {
+              "margin": {
+                "top": 8
+              },
+              "title": "标题",
+              "widthScale": 0.25,
+              "widgetName": "Label",
+              "module": "@lugia/lugia-web",
+              "widgetInfo": {
+                "props": {
+                  "text": { "getValue": "return item.title + ' : '" },
+                  "showPrefix": { "getValue": "return item.required;" },
+                  "prefix": "*"
+                },
+                "theme": {
+                  "getValue": "return {Container: {normal: {textAlign: 'right', font: {size: 14}, color: '#333', height: 30, lineHeight: 30}}, LabelPrefix : {normal: {color: 'red', font: {size: 14}}}}"
+                }
+              }
+            },
+            {
+              "title": "组件",
+              "widgetName": { "getValue": "return item.widgetName" },
+              "widthScale": 0.75,
+              "margin": { "bottom": 16, "left": 12, "right": 152, "top": 14 },
+              "widgetInfo": {
+                "props": {
+                  "field": { "getValue": "return 'form.' + item.field" },
+                  "placeholder": { "getValue": "return `请输入${item.title}`" },
+                  "validateType": "top",
+                  "help": { "getValue": "return item.help || ''" }
+                },
+                "bind": {
+                  "value": {
+                    "propsName": "value",
+                    "modelName": { "getValue": "return vars.modelName" },
+                    "fieldName": { "getValue": "return 'form.' + item.field" },
+                    "bindType": "bind"
+                  },
+                  "validateStatus": {
+                    "propsName": "validateStatus",
+                    "modelName": "$__data__.model",
+                    "fieldName": { "getValue": "return 'form.' + item.field + 'Error'" },
+                    "bindType": "connect"
+                  },
+                  "help": {
+                    "propsName": "help",
+                    "modelName": "$__data__.model",
+                    "fieldName": { "getValue": "return 'form.' + item.field + 'Help'" },
+                    "bindType": "connect"
+                  }
+                },
+                "theme": {
+                  "getValue": "return {Placeholder: {normal: {fontSize: 14, color: '#ccc'} }, Container: {  normal: {      borderRadius: { bottomLeft: 4, bottomRight: 4, topLeft: 4, topRight: 4 },    border: {      top: { color: '#d8d8d8', width:1, style: 'solid' },      left: { color: '#d8d8d8', width:1 , style: 'solid'},      right: { color: '#d8d8d8', width:1 , style: 'solid'},      bottom: { color: '#d8d8d8', width:1 , style: 'solid'},    },  },},}"
+                },
+                "pageData": {
+                  "state": {
+                    "getValue": "return {['form.' + item.field + 'Error']: '', ['form.' + item.field + 'Help']: item.help || ''}"
+                  },
+                  "bindEvent": { "getValue": "return {[vars.widgetId]: {onChange: 'onValidate'}}" }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "areaId": "mainPad",
+        "title": "分页",
+        "widgetId": "Page",
+        "slot": {
+          "title": "分页信息",
+          "checked": false,
+          "hidden": true,
+          "dataType": "object",
+          "metaFields": [],
+          "widgetInfo": {
+            "bind": {
+              "current": {
+                "propsName": "current",
+                "modelName": { "getValue": "return vars.modelName" },
+                "fieldName": "current",
+                "bindType": "connect"
+              },
+              "total": {
+                "propsName": "total",
+                "modelName": { "getValue": "return vars.modelName" },
+                "fieldName": "total",
+                "bindType": "connect"
+              },
+              "pageSize": {
+                "propsName": "pageSize",
+                "modelName": { "getValue": "return vars.modelName" },
+                "fieldName": "pageSize",
+                "bindType": "connect"
+              }
+            },
+            "mutation": {
+              "onChange": {
+                "eventName": "onChange",
+                "modelName": { "getValue": "return vars.modelName" },
+                "mutationName": "asyncOnChangePage"
+              },
+              "onShowSizeChange": {
+                "eventName": "onShowSizeChange",
+                "modelName": { "getValue": "return vars.modelName" },
+                "mutationName": "asyncOnChangePage"
+              }
+            }
+          }
+        }
+      },
+      {
+        "areaId": "MainCard",
+        "widgetId": "Table",
+        "slot": {
+          "checked": true,
+          "slotType": "GridFlow",
+          "columnCount": 1,
+          "title": "表格",
+          "minHeight": 50,
+          "margin": { "left": 0, "top": 0, "right": 0, "bottom": 0 },
+          "isTable": true,
+          "metaFields": [
+            {
+              "title": "表格",
+              "name": "Table",
+              "columns": [
+                {
+                  "title": "表格标题",
+                  "dataIndex": "title",
+                  "key": "title",
+                  "width": 200,
+                  "align": "center",
+                  "mark": 1
+                },
+                {
+                  "title": "编辑表头数据",
+                  "dataIndex": "columns",
+                  "key": "columns",
+                  "width": 200,
+                  "align": "center",
+                  "mark": 2,
+                  "columns": [
+                    {
+                      "title": "列名(英文)",
+                      "dataIndex": "key",
+                      "key": "key",
+                      "width": 200,
+                      "mark": 1
+                    },
+                    {
+                      "title": "列名显示文本",
+                      "dataIndex": "title",
+                      "key": "title",
+                      "width": 200,
+                      "mark": 2
+                    }
+                  ]
+                },
+                {
+                  "title": "编辑表体数据",
+                  "dataIndex": "data",
+                  "key": "data",
+                  "width": 200,
+                  "align": "center",
+                  "mark": 3
+                }
+              ]
+            }
+          ],
+          "widgetInfo": {
+            "bind": {
+              "data": {
+                "propsName": "data",
+                "modelName": { "getValue": "return vars.modelName" },
+                "fieldName": "table",
+                "bindType": "connect"
+              },
+              "selectRowKeys": {
+                "propsName": "selectRowKeys",
+                "modelName": { "getValue": "return vars.modelName" },
+                "fieldName": "selected",
+                "bindType": "connect"
+              }
+            },
+            "props": {
+              "columns": { "getValue": "return item.columns" },
+              "data": { "getValue": "return item.data" }
+            },
+            "theme": { "getValue": { "Container": { "normal": { "width": 1149, "height": 360 } } } },
+            "mutation": {
+              "onChange": {
+                "eventName": "onChange",
+                "modelName": { "getValue": "return vars.modelName" },
+                "mutationName": "onSelected"
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "pageData",
+        "target": {
+          "state": {
+            "showDialog": false,
+            "showDeleteDialog": false,
+            "formType": "edit",
+            "addDialogTitle": "表格标题",
+            "title": { "getValue": "return vars.title" }
+          },
+          "bindEvent": {
+            "AddButton": { "onClick": ["onShowDialog"] },
+            "OkButton": { "onClick": ["onHideDialog", "onAddOrEdit"] },
+            "CancelButton": { "onClick": ["onHideDialog"] },
+            "Table": {
+              "onDelete": ["onShowDeleteDialog"],
+              "onEdit": ["onShowEditDialog"],
+              "onView": ["onViewRecord"]
+            },
+            "CancelDelete": { "onClick": ["onHideDeleteDialog"] },
+            "OkDelete": { "onClick": ["onHideDeleteDialog", "onDeleteRecode"] },
+            "QueryInput": { "onKeyUp": ["onQuery"] }
+          },
+          "dependenciesModels": { "getValue": "return [vars.modelName]" },
+          "scripts": {
+            "onValidate": {
+              "type": "Project",
+              "code": { "getValue": "return `../ue/henghe/data/query/${vars.modelName}/validate`;" }
+            },
+            "onShowDialog": { "type": "Project", "code": "../ue/henghe/data/query/onShowDialog" },
+            "onShowDeleteDialog": {
+              "type": "Project",
+              "code": "../ue/henghe/data/query/onShowDeleteDialog"
+            },
+            "onHideDialog": { "type": "Project", "code": "../ue/henghe/data/query/onHideDialog" },
+            "onHideDeleteDialog": {
+              "type": "Project",
+              "code": "../ue/henghe/data/query/onHideDeleteDialog"
+            },
+            "onQuery": { "type": "Project", "code": "../ue/henghe/data/query/onQuery" },
+            "onShowEditDialog": {
+              "type": "Project",
+              "code": "../ue/henghe/data/query/onShowEditDialog"
+            },
+            "onAddOrEdit": { "type": "Project", "code": "../ue/henghe/data/query/onAddOrEdit" },
+            "onDeleteRecode": { "type": "Project", "code": "../ue/henghe/data/query/onDeleteRecode" },
+            "onViewRecord": { "type": "Project", "code": "../ue/henghe/data/query/onViewRecord" }
+          }
+        }
+      },
+
+      {
+        "type": "lugiax",
+        "slot": {
+          "widgetId2PropsName2BindInfo": {
+            "AddDialog": {
+              "visible": {
+                "propsName": "visible",
+                "modelName": "$__data__.model",
+                "fieldName": "showDialog",
+                "bindType": "connect"
+              }
+            },
+            "DeleteDialog": {
+              "visible": {
+                "propsName": "visible",
+                "modelName": "$__data__.model",
+                "fieldName": "showDeleteDialog",
+                "bindType": "connect"
+              }
+            },
+            "QueryInput": {
+              "value": {
+                "propsName": "value",
+                "modelName": {
+                  "getValue": "return vars.modelName"
+                },
+                "fieldName": "query",
+                "bindType": "bind"
+              }
+            },
+            "AddDialogTitle": {
+              "text": {
+                "propsName": "text",
+                "modelName": "$__data__.model",
+                "fieldName": "addDialogTitle",
+                "bindType": "connect"
+              }
+            }
+          },
+          "widgetId2EventName2MutationInfo": {}
+        }
+      }
+    ]
+  },
+  "model": "import lugiax from '@lugia/lugiax';\nimport { fromJS } from 'immutable';\nconst __LUGIAX_MODEL_DEFINE__ = 'henghequery';\nconst state = {\n  current: 1,\n  pageSize: 10,\n  total: 1000,\n  form: {},\n  table: [\n    { name: 'Jack', age: 28, address: 'some where', key: '1' },\n    { name: 'Rose', age: 36, address: 'some where', key: '2' },\n    { name: 'Rook', age: 22, address: 'some where', key: '3' },\n    { name: 'Lise', age: 33, address: 'some where', key: '4' },\n    { name: 'Lise', age: 33, address: 'some where', key: '5' },\n    { name: 'Lise', age: 33, address: 'some where', key: '6' },\n    { name: 'Lise', age: 33, address: 'some where', key: '7' },\n    { name: 'Lise', age: 33, address: 'some where', key: '8' },\n    { name: 'Lise', age: 33, address: 'some where', key: '9' },\n    { name: 'Lise', age: 33, address: 'some where', key: '10' },\n  ],\n  selected: [],\n};\n\nexport default lugiax.register({\n  model: __LUGIAX_MODEL_DEFINE__,\n  state,\n  mutations: {\n    sync: {\n      unMount(state) {\n        console.info('unMount');\n        return state;\n      },\n      didMount(state) {\n        console.info('didMount');\n        return state;\n      },\n\n      onSelected(state, param) {\n        console.log(param.events);\n        const { events = [] } = param;\n        state.getIn(['form', 'name']);\n\n        const [seleckKeys = []] = events;\n        return state.set('selected', seleckKeys);\n      },\n    },\n    async: {\n      async deleteSelected(state) {\n        const selected = state.get('selected').toJS();\n        console.info('删除', selected);\n        return state;\n      },\n\n      async deleteRecord(state, param) {\n        const { events = [] } = param;\n        const [text, record] = events;\n        const { key } = record;\n        console.info('删除', key);\n        return state;\n      },\n\n      async getRecord(state, param) {\n        const { id } = param;\n        return state;\n      },\n\n      addRecord(state) {\n        console.log('add');\n        return state;\n      },\n\n      async editRecord(state, param) {\n        const { events = [] } = param;\n        const [text, record] = events;\n        const { key } = record;\n        console.info('编辑', key);\n        return state;\n      },\n\n      async query(state) {\n        const newTotal = 100;\n        state = state.set('total', newTotal);\n        return state;\n      },\n\n      async onChangePage(state, param) {\n        const { events } = param;\n        const [event] = events;\n        let current = 0;\n        let size = 0;\n        if (typeof event === 'object') {\n          current = event.current;\n          size = event.pageSize;\n        } else {\n          current = events[0];\n          size = events[1];\n        }\n        state = state.set('current', current);\n        state = state.set('totalText', '共计' + state.get('total') + '条记录');\n        state = state.set('pageSize', size);\n        state = state.set('selected', fromJS([]));\n        return state;\n      }\n    },\n  },\n});\n",
+  "scripts": [
+    {
+      "code": "export default async param => {\n  const { props, pageData } = param;\n\n  const { field } = props;\n  if (field === 'name') {\n    const { events } = param;\n    const [event] = events;\n    if (event.newValue === 'ligx') {\n      pageData.nameError = 'error';\n      pageData.nameHelp = '姓名错误';\n    } else {\n      pageData.nameError = '';\n    }\n  }\n};",
+      "dest": "${projectDir}/src/ue/henghe/data/query/${vars.modelName}/validate",
+      "staticModel": false
+    },
+    {
+      "code": "export default param => {\n  const { pageData } = param;\n  pageData.showDialog = true;\n  pageData.formType = 'add';\n  pageData.addDialogTitle = '添加' + pageData.title;\n};",
+      "dest": "${projectDir}/src/ue/henghe/data/query/onShowDialog"
+    },
+    {
+      "code": "export default param => {\n  const { pageData } = param;\n  pageData.showDeleteDialog = true;\n};",
+      "dest": "${projectDir}/src/ue/henghe/data/query/onShowDeleteDialog"
+    },
+    {
+      "code": "export default param => {\n  const { pageData } = param;\n  pageData.showDialog = false;\n};",
+      "dest": "${projectDir}/src/ue/henghe/data/query/onHideDialog"
+    },
+    {
+      "code": "export default param => {\n  const { pageData } = param;\n  pageData.showDeleteDialog = false;\n};",
+      "dest": "${projectDir}/src/ue/henghe/data/query/onHideDeleteDialog"
+    },
+    {
+      "code": "export default param => {\n  const { models, events } = param;\n  const [event] = events;\n  if (event.keyCode === 13) {\n    const [self] = models;\n    const { mutations } = self;\n    mutations.asyncQuery({});\n    console.info(param);\n  }\n};",
+      "dest": "${projectDir}/src/ue/henghe/data/query/onQuery"
+    },
+    {
+      "code": "export default param => {\n  const { pageData } = param;\n  pageData.showDialog = true;\n  pageData.formType = 'edit';\n  pageData.addDialogTitle = '编辑' + pageData.title;\n};",
+      "dest": "${projectDir}/src/ue/henghe/data/query/onShowEditDialog"
+    },
+    {
+      "code": "export default param => {\n  const { models, pageData: {formType}, events} = param;\n  const [self] = models;\n  const { mutations } = self;\n  switch (formType) {\n    case 'add':\n      mutations.asyncAddRecord({ events });\n      break;\n    case 'edit':\n      mutations.asyncEditRecord({ events });\n      break;\n    default:\n      break;\n  }\n};",
+      "dest": "${projectDir}/src/ue/henghe/data/query/onAddOrEdit"
+    },
+    {
+      "code": "import React from 'react';\nimport { Modal, Message } from '@lugia/lugia-web';\nimport ShowInfo from '../../../components/ShowInfo/showInfo';\nfunction confirmDelete(content, cb) {\n  Modal.confirm({\n    title: '确认是否删除',\n    content,\n    onOk: () => {\n      cb && cb();\n    },\n    okButtonProps: {\n      type: 'danger',\n    },\n  });\n}\nexport default async param => {\n  const { props } = param;\n  const { columns } = props;\n  const { models } = param;\n  const [model] = models;\n  if (Array.isArray(columns)) {\n    const { events } = param;\n    const [record] = events;\n\n    confirmDelete(<ShowInfo column={columns} data={record}></ShowInfo>, () => {\n      const {\n        mutations: { asyncDeleteRecord },\n      } = model;\n      asyncDeleteRecord({ events });\n    });\n    return;\n  }\n\n  const { getState } = model;\n  const stateSelectKeys = getState().get('selected');\n  const selectedKeys = stateSelectKeys.toJS ? stateSelectKeys.toJS() : stateSelectKeys;\n  console.info(selectedKeys);\n  const length = selectedKeys.length;\n  if (length < 1) {\n    Message.info('请先选择要删除的记录');\n    return;\n  }\n  confirmDelete(`您将删除${length}条记录，是否确认？`, () => {\n    const {\n      mutations: { asyncDeleteSelected },\n    } = model;\n    asyncDeleteSelected();\n  });\n};",
+      "dest": "${projectDir}/src/ue/henghe/data/query/onDeleteRecode"
+    },
+    {
+      "code": "import React from 'react';\nimport show from '../components/ShowInfo';\n\nexport default async param => {\n  const { events } = param;\n  const [, record, , column] = events;\n  show({ data: record, column });\n};",
+      "dest": "${projectDir}/src/ue/henghe/data/query/onViewRecord"
+    }
+  ]
+}

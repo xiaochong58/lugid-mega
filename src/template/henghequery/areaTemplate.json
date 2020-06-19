@@ -1,0 +1,439 @@
+[
+  {
+    "areaId": "mainPad",
+    "title": "标题按钮",
+    "widgetId": "TitleButton",
+    "slot": {
+      "checked": true,
+      "title": "标题按钮",
+      "dataKey": "router",
+      "widgetInfo": {
+        "props": {
+          "text": {
+            "getValue": "return item.text; "
+          }
+        }
+      }
+    }
+  },
+
+  {
+    "areaId": "mainPad",
+    "title": "路由信息",
+    "widgetId": "Router",
+    "slot": {
+      "checked": true,
+      "title": "路由信息",
+      "dataKey": "router",
+      "widgetInfo": {
+        "props": {
+          "routes": {
+            "getValue": "const itemRouter =  item.router || [] ;const router = [...itemRouter.map(({title})=>({title})), { path: vars.path, title: vars.title } ]; return router; "
+          }
+        }
+      },
+      "metaFields": [
+        {
+          "name": "Router",
+          "title": "路由信息",
+          "columns": [
+            {
+              "title": "显示文本",
+              "dataIndex": "title",
+              "key": "title",
+              "type": "Input"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "areaId": "AddForm",
+    "slot": {
+      "option": { "fixedMainPadHeight": true },
+      "checked": true,
+      "minHeight": 80,
+      "slotType": "GridFlow",
+      "columnCount": 1,
+      "title": "表单",
+      "margin": { "left": 0, "top": 0, "bottom": 0 },
+      "metaFields": [
+        {
+          "title": "表单",
+          "name": "QueryForm",
+          "columns": [
+            {
+              "title": "列名",
+              "dataIndex": "key",
+              "key": "key",
+              "type": "Input",
+              "defaultValue": "search",
+              "mark": 1
+            },
+            {
+              "title": "文本",
+              "dataIndex": "title",
+              "key": "title",
+              "type": "Input",
+              "defaultValue": "查询",
+              "mark": 2
+            },
+            {
+              "title": "错误提示",
+              "dataIndex": "help",
+              "key": "help",
+              "type": "Input",
+              "defaultValue": "",
+              "mark": 3
+            },
+            {
+              "title": "类型",
+              "dataIndex": "type",
+              "key": "type",
+              "type": "Select",
+              "defaultValue": "string",
+              "selectData": "lugiaWebForm",
+              "mark": 4
+            },
+            {
+              "title": "是否必填",
+              "dataIndex": "required",
+              "key": "required",
+              "type": "Select",
+              "selectData": [
+                { "value": false, "text": "否" },
+                { "value": true, "text": "是" }
+              ],
+              "mark": 5
+            }
+          ]
+        }
+      ],
+
+      "blocks": [
+        {
+          "margin": {
+            "top": 8
+          },
+          "title": "标题",
+          "widthScale": 0.25,
+          "widgetName": "Label",
+          "module": "@lugia/lugia-web",
+          "widgetInfo": {
+            "props": {
+              "text": { "getValue": "return item.title + ' : '" },
+              "showPrefix": { "getValue": "return item.required;" },
+              "prefix": "#"
+            },
+            "theme": {
+              "getValue": "return {Container: {normal: {textAlign: 'right', font: {size: 14}, color: '#333', height: 30, lineHeight: 30}}, LabelPrefix : {normal: {color: 'red', font: {size: 14}}}}"
+            }
+          }
+        },
+        {
+          "title": "组件",
+          "widgetName": { "getValue": "return item.widgetName" },
+          "widthScale": 0.75,
+          "margin": { "bottom": 16, "left": 12, "right": 152, "top": 14 },
+          "widgetInfo": {
+            "props": {
+              "field": { "getValue": "return 'form.' + item.field" },
+              "placeholder": { "getValue": "return `请输入${item.title}`" },
+              "validateType": "top",
+              "help": { "getValue": "return item.help || ''" }
+            },
+            "bind": {
+              "value": {
+                "propsName": "value",
+                "modelName": { "getValue": "return vars.modelName" },
+                "fieldName": { "getValue": "return 'form.' + item.field" },
+                "bindType": "bind"
+              },
+              "validateStatus": {
+                "propsName": "validateStatus",
+                "modelName": "$__data__.model",
+                "fieldName": {
+                  "getValue": "return 'form.' + item.field + 'Error'"
+                },
+                "bindType": "connect"
+              },
+              "help": {
+                "propsName": "help",
+                "modelName": "$__data__.model",
+                "fieldName": {
+                  "getValue": "return 'form.' + item.field + 'Help'"
+                },
+                "bindType": "connect"
+              }
+            },
+            "theme": {
+              "getValue": "return {Placeholder: {normal: {fontSize: 14, color: '#ccc'} }, Container: {  normal: {      borderRadius: { bottomLeft: 4, bottomRight: 4, topLeft: 4, topRight: 4 },    border: {      top: { color: '#d8d8d8', width:1, style: 'solid' },      left: { color: '#d8d8d8', width:1 , style: 'solid'},      right: { color: '#d8d8d8', width:1 , style: 'solid'},      bottom: { color: '#d8d8d8', width:1 , style: 'solid'},    },  },},}"
+            },
+            "pageData": {
+              "state": {
+                "getValue": "return {['form.' + item.field + 'Error']: '', ['form.' + item.field + 'Help']: item.help || ''}"
+              },
+              "bindEvent": {
+
+                "getValue": "return {[vars.widgetId]: {onChange: 'onValidate'}}"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "areaId": "mainPad",
+    "title": "分页",
+    "widgetId": "Page",
+    "slot": {
+      "title": "分页信息",
+      "checked": false,
+      "hidden": true,
+      "dataType": "object",
+      "metaFields": [],
+      "widgetInfo": {
+        "bind": {
+          "current": {
+            "propsName": "current",
+            "modelName": { "getValue": "return vars.modelName" },
+            "fieldName": "current",
+            "bindType": "connect"
+          },
+          "total": {
+            "propsName": "total",
+            "modelName": { "getValue": "return vars.modelName" },
+            "fieldName": "total",
+            "bindType": "connect"
+          },
+          "pageSize": {
+            "propsName": "pageSize",
+            "modelName": { "getValue": "return vars.modelName" },
+            "fieldName": "pageSize",
+            "bindType": "connect"
+          }
+        },
+        "mutation": {
+          "onChange": {
+            "eventName": "onChange",
+            "modelName": { "getValue": "return vars.modelName" },
+            "mutationName": "asyncOnChangePage"
+          },
+          "onShowSizeChange": {
+            "eventName": "onShowSizeChange",
+            "modelName": { "getValue": "return vars.modelName" },
+            "mutationName": "asyncOnChangePage"
+          }
+        }
+      }
+    }
+  },
+  {
+    "areaId": "mainPad",
+    "widgetId": "Table",
+    "slot": {
+      "checked": true,
+      "slotType": "GridFlow",
+      "columnCount": 1,
+      "title": "表格",
+      "minHeight": 50,
+      "margin": { "left": 0, "top": 0, "right": 0, "bottom": 0 },
+      "isTable": true,
+      "metaFields": [
+        {
+          "title": "表格",
+          "name": "Table",
+          "columns": [
+            {
+              "title": "表格标题",
+              "dataIndex": "title",
+              "key": "title",
+              "width": 200,
+              "align": "center",
+              "mark": 1
+            },
+            {
+              "title": "编辑表头数据",
+              "dataIndex": "columns",
+              "key": "columns",
+              "width": 200,
+              "align": "center",
+              "mark": 2,
+              "columns": [
+                {
+                  "title": "列名(英文)",
+                  "dataIndex": "key",
+                  "key": "key",
+                  "width": 200,
+                  "mark": 1
+                },
+                {
+                  "title": "列名显示文本",
+                  "dataIndex": "title",
+                  "key": "title",
+                  "width": 200,
+                  "mark": 2
+                }
+              ]
+            },
+            {
+              "title": "编辑表体数据",
+              "dataIndex": "data",
+              "key": "data",
+              "width": 200,
+              "align": "center",
+              "mark": 3
+            }
+          ]
+        }
+      ],
+      "widgetInfo": {
+        "bind": {
+          "data": {
+            "propsName": "data",
+            "modelName": { "getValue": "return vars.modelName" },
+            "fieldName": "table",
+            "bindType": "connect"
+          },
+          "selectRowKeys": {
+            "propsName": "selectRowKeys",
+            "modelName": { "getValue": "return vars.modelName" },
+            "fieldName": "selected",
+            "bindType": "connect"
+          }
+        },
+        "props": {
+          "columns": { "getValue": "return item.columns" },
+          "data": { "getValue": "return item.data" }
+        },
+        "theme": {
+          "getValue": {
+            "Container": { "normal": { "width": 1149, "height": 360 } }
+          }
+        },
+        "mutation": {
+          "onChange": {
+            "eventName": "onChange",
+            "modelName": { "getValue": "return vars.modelName" },
+            "mutationName": "onSelected"
+          }
+        }
+      }
+    }
+  },
+  {
+    "type": "pageData",
+    "slot": {
+      "state": {
+        "showDialog": false,
+        "showDeleteDialog": false,
+        "formType": "edit",
+        "addDialogTitle": "表格标题",
+        "title": { "getValue": "return vars.title" }
+      },
+      "bindEvent": {
+        "AddButton": { "onClick": ["onShowDialog"] },
+        "OkButton": { "onClick": ["onHideDialog", "onAddOrEdit"] },
+        "CancelButton": { "onClick": ["onHideDialog"] },
+        "Table": {
+          "onDelete": ["onShowDeleteDialog"],
+          "onEdit": ["onShowEditDialog"],
+          "onView": ["onViewRecord"]
+        },
+        "CancelDelete": { "onClick": ["onHideDeleteDialog"] },
+        "OkDelete": { "onClick": ["onHideDeleteDialog", "onDeleteRecode"] },
+        "QueryInput": { "onKeyUp": ["onQuery"] }
+      },
+      "dependenciesModels": { "getValue": "return [vars.modelName]" },
+      "scripts": {
+        "onValidate": {
+          "type": "Project",
+          "code": {
+            "getValue": "return `../ue/henghe/data/query/${vars.modelName}/validate`;"
+          }
+        },
+        "onShowDialog": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onShowDialog"
+        },
+        "onShowDeleteDialog": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onShowDeleteDialog"
+        },
+        "onHideDialog": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onHideDialog"
+        },
+        "onHideDeleteDialog": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onHideDeleteDialog"
+        },
+        "onQuery": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onQuery"
+        },
+        "onShowEditDialog": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onShowEditDialog"
+        },
+        "onAddOrEdit": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onAddOrEdit"
+        },
+        "onDeleteRecode": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onDeleteRecode"
+        },
+        "onViewRecord": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onViewRecord"
+        }
+      }
+    }
+  },
+
+  {
+    "type": "lugiax",
+    "slot": {
+      "widgetId2PropsName2BindInfo": {
+        "AddDialog": {
+          "visible": {
+            "propsName": "visible",
+            "modelName": "$__data__.model",
+            "fieldName": "showDialog",
+            "bindType": "connect"
+          }
+        },
+        "DeleteDialog": {
+          "visible": {
+            "propsName": "visible",
+            "modelName": "$__data__.model",
+            "fieldName": "showDeleteDialog",
+            "bindType": "connect"
+          }
+        },
+        "QueryInput": {
+          "value": {
+            "propsName": "value",
+            "modelName": {
+              "getValue": "return vars.modelName"
+            },
+            "fieldName": "query",
+            "bindType": "bind"
+          }
+        },
+        "AddDialogTitle": {
+          "text": {
+            "propsName": "text",
+            "modelName": "$__data__.model",
+            "fieldName": "addDialogTitle",
+            "bindType": "connect"
+          }
+        }
+      },
+      "widgetId2EventName2MutationInfo": {}
+    }
+  }
+]

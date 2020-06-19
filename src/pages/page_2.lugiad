@@ -1,0 +1,66 @@
+{
+  "type": "PolarBear",
+  "designPoint": [
+    -1540,
+    -1985
+  ],
+  "scale": 0.7,
+  "areaId2ChildPadIndexString": {},
+  "widgetId2ChildPad": {},
+  "forkDependencies": [],
+  "mainDependencies": [],
+  "forkPad": {
+    "point": [
+      -1540,
+      -1985
+    ],
+    "width": 5000,
+    "index": 0,
+    "height": 5000,
+    "zIndex": 4000,
+    "type": "ForkPad",
+    "layers": [],
+    "idSeq": 67,
+    "id2WidgetInfo": {},
+    "id": "forkPad",
+    "lastIndex": 41,
+    "group": false,
+    "templateConfig": {}
+  },
+  "mainPad": {
+    "point": [
+      0,
+      -25
+    ],
+    "width": 1920,
+    "index": 0,
+    "height": 1080,
+    "zIndex": 4000,
+    "type": "MainPad",
+    "layers": [],
+    "idSeq": 91291,
+    "id2WidgetInfo": {},
+    "id": "mainPad",
+    "lastIndex": 71,
+    "group": false,
+    "templateConfig": {},
+    "backgroudColor": "#f8f8f8"
+  },
+  "themes": {
+    "widgetId2ThemeInfo": {}
+  },
+  "lugiax": {
+    "page2mutation": {},
+    "widgetId2PropsName2BindInfo": {},
+    "widgetId2EventName2MutationInfo": {},
+    "pageData": {}
+  },
+  "assets": {
+    "widgetIdHasAssetPropsName": {},
+    "widgetIdHasAssetThemeName": {}
+  },
+  "widgetId2Locked": {},
+  "widgetId2Hidden": {},
+  "widgetId2Title": {},
+  "zip": true
+}

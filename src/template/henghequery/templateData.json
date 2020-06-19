@@ -1,0 +1,136 @@
+{
+  "Router": {
+    "router": [
+      {
+        "title": "首页"
+      },
+      {
+        "title": "用户管理"
+      }
+    ]
+  },
+  "AddForm": [
+    {
+      "required": true,
+      "title": "姓名",
+      "field": "name",
+      "widgetName": "Input"
+    },
+    {
+      "title": "年龄",
+      "field": "age",
+      "widgetName": "Input"
+    },
+    {
+      "title": "性别",
+      "field": "sex",
+      "widgetName": "Input"
+    },
+    {
+      "title": "姓名",
+      "field": "name",
+      "widgetName": "Input"
+    },
+    {
+      "title": "年龄",
+      "field": "age",
+      "widgetName": "Input"
+    },
+    {
+      "title": "性别",
+      "field": "sex",
+      "widgetName": "Input"
+    },
+    {
+      "title": "姓名",
+      "field": "name",
+      "widgetName": "Input"
+    },
+    {
+      "title": "年龄",
+      "field": "age",
+      "widgetName": "Input"
+    },
+    {
+      "title": "性别",
+      "field": "sex",
+      "widgetName": "Input"
+    },
+    {
+      "title": "年龄",
+      "field": "age",
+      "widgetName": "Input"
+    },
+    {
+      "title": "性别",
+      "field": "sex",
+      "widgetName": "Input"
+    },
+    {
+      "title": "姓名",
+      "field": "name",
+      "widgetName": "Input"
+    },
+    {
+      "title": "年龄",
+      "field": "age",
+      "widgetName": "Input"
+    },
+    {
+      "title": "性别",
+      "field": "sex",
+      "widgetName": "Input"
+    },
+    {
+      "title": "姓名",
+      "field": "name",
+      "widgetName": "Input"
+    },
+    {
+      "title": "年龄",
+      "field": "age",
+      "widgetName": "Input"
+    },
+    {
+      "title": "性别",
+      "field": "sex",
+      "widgetName": "Input"
+    }
+  ],
+  "TitleButton": {
+    "text": "hello"
+  },
+  "Table": {
+    "columns": [
+      {
+        "dataIndex": "name",
+        "key": "name",
+        "title": "姓名",
+        "type": "switch"
+      },
+      {
+        "dataIndex": "age",
+        "key": "age",
+        "title": "年龄"
+      },
+      {
+        "dataIndex": "sex",
+        "key": "sex",
+        "title": "性别"
+      },
+      {
+        "dataIndex": "phone",
+        "key": "phone",
+        "title": "手机号"
+      }
+    ],
+    "data": [],
+    "title": ""
+  },
+  "_global_": {
+    "suffix": "中国",
+    "path": "/",
+    "title": "用户管理",
+    "modelName": "henghequery"
+  }
+}

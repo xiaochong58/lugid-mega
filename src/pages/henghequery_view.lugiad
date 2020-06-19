@@ -1,0 +1,3638 @@
+{
+  "type": "PolarBear",
+  "designPoint": [
+    -24232,
+    -24661.55
+  ],
+  "scale": 0.6,
+  "areaId2ChildPadIndexString": {
+    "AddDialog": "mainPad.AddDialog",
+    "AddForm": "AddDialog.AddForm",
+    "ace#]S0": "mainPad.DeleteDialog"
+  },
+  "widgetId2ChildPad": {
+    "AddDialog": {
+      "point": [
+        281.31,
+        267.01
+      ],
+      "width": 640,
+      "index": 1,
+      "height": 964,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbB6IH2",
+          "z": 0,
+          "w": 640,
+          "h": 1,
+          "p": [
+            0.81,
+            48.04
+          ]
+        },
+        {
+          "i": "CancelButton",
+          "z": 1,
+          "w": 92,
+          "h": 36,
+          "p": [
+            344.42,
+            24.13
+          ],
+          "pt": "rb"
+        },
+        {
+          "i": "OkButton",
+          "z": 2,
+          "w": 92,
+          "h": 36,
+          "p": [
+            218.18,
+            23.63
+          ],
+          "pt": "rb"
+        },
+        {
+          "i": "wbIBU872",
+          "z": 3,
+          "w": 4,
+          "h": 12,
+          "p": [
+            20.34,
+            19.55
+          ]
+        },
+        {
+          "i": "AddDialogTitle",
+          "z": 4,
+          "w": 300,
+          "h": 20,
+          "p": [
+            32.55,
+            15.05
+          ]
+        },
+        {
+          "i": "AddForm",
+          "z": 5,
+          "w": 640,
+          "h": 816,
+          "p": [
+            0,
+            69
+          ],
+          "s": {
+            "w": "r",
+            "h": "a",
+            "wr": {
+              "x": "100%"
+            },
+            "hr": {
+              "x": "calc(70vh - 50px)"
+            },
+            "f": {
+              "l": "r",
+              "t": "r",
+              "r": "r",
+              "b": "r"
+            }
+          }
+        },
+        {
+          "i": "wbch2F&0",
+          "z": 6,
+          "w": 4,
+          "h": 12,
+          "p": [
+            20.34,
+            19.55
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbIBU872": {
+          "w": "BasicElements",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "shape": "square"
+          },
+          "i": "wbIBU872"
+        },
+        "AddDialogTitle": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "showPrefix": false,
+            "prefix": "*"
+          },
+          "i": "AddDialogTitle"
+        },
+        "CancelButton": {
+          "w": "Button",
+          "a": "PlainButton",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "disabled": false,
+            "shape": "default",
+            "type": "primary",
+            "plain": true,
+            "size": "default",
+            "text": "取消",
+            "block": false,
+            "viewClass": "PlainButton-m-theme-viewClass"
+          },
+          "i": "CancelButton"
+        },
+        "wbB6IH2": {
+          "w": "BasicElements",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "shape": "square",
+            "viewClass": "BasicElements-theme-viewClass"
+          },
+          "i": "wbB6IH2"
+        },
+        "AddForm": {
+          "childAreaId": "AddForm",
+          "w": "MonkeyKing",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "type": "transparent",
+            "showTipBottomLine": false,
+            "width": 350,
+            "height": 130,
+            "TargetContainer": {
+              "widgetName": "Card",
+              "module": "@lugia/lugia-web",
+              "version": "1.0.0",
+              "props": {
+                "lugiaHidden": false,
+                "title": "卡片头部标题",
+                "type": "transparent",
+                "showTipBottomLine": false,
+                "width": 350,
+                "height": 130
+              },
+              "defaultTheme": {
+                "Container": {
+                  "normal": {
+                    "width": 750,
+                    "height": 400
+                  }
+                },
+                "CardTitleHeadContainer": {
+                  "normal": {
+                    "padding": {
+                      "top": 0
+                    },
+                    "height": 50
+                  }
+                }
+              },
+              "monkeyType": "Point"
+            }
+          },
+          "i": "AddForm"
+        },
+        "wbch2F&0": {
+          "w": "BasicElements",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "shape": "square"
+          },
+          "i": "wbch2F&0"
+        },
+        "OkButton": {
+          "w": "Button",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "disabled": false,
+            "shape": "default",
+            "type": "primary",
+            "size": "default",
+            "text": "确定",
+            "block": false,
+            "viewClass": "Button-m-theme-viewClass"
+          },
+          "i": "OkButton"
+        }
+      },
+      "id": "AddDialog",
+      "lastIndex": 0,
+      "fatherId": "mainPad",
+      "widgetId": "AddDialog",
+      "group": false,
+      "templateConfig": {}
+    },
+    "AddForm": {
+      "point": [
+        0,
+        69
+      ],
+      "width": 640,
+      "index": 2,
+      "scroller": "xy",
+      "height": 816,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "wbSQXl0",
+          "z": 0,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            8
+          ]
+        },
+        {
+          "i": "wbkRW81",
+          "z": 1,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            14
+          ]
+        },
+        {
+          "i": "wbK*)k2",
+          "z": 2,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            56
+          ]
+        },
+        {
+          "i": "wbljiT3",
+          "z": 3,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            62
+          ]
+        },
+        {
+          "i": "wb#f)%4",
+          "z": 4,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            104
+          ]
+        },
+        {
+          "i": "wb%Ud%5",
+          "z": 5,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            110
+          ]
+        },
+        {
+          "i": "wbV44D6",
+          "z": 6,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            152
+          ]
+        },
+        {
+          "i": "wbphdF7",
+          "z": 7,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            158
+          ]
+        },
+        {
+          "i": "wbjtlW8",
+          "z": 8,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            200
+          ]
+        },
+        {
+          "i": "wb#eWf9",
+          "z": 9,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            206
+          ]
+        },
+        {
+          "i": "wbIfQ710",
+          "z": 10,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            248
+          ]
+        },
+        {
+          "i": "wbR($X11",
+          "z": 11,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            254
+          ]
+        },
+        {
+          "i": "wbCJDd12",
+          "z": 12,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            296
+          ]
+        },
+        {
+          "i": "wbEoRY13",
+          "z": 13,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            302
+          ]
+        },
+        {
+          "i": "wbGAsC14",
+          "z": 14,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            344
+          ]
+        },
+        {
+          "i": "wb**wh15",
+          "z": 15,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            350
+          ]
+        },
+        {
+          "i": "wbP)y^16",
+          "z": 16,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            392
+          ]
+        },
+        {
+          "i": "wb$L1e17",
+          "z": 17,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            398
+          ]
+        },
+        {
+          "i": "wbPL2[18",
+          "z": 18,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            440
+          ]
+        },
+        {
+          "i": "wbk*vm19",
+          "z": 19,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            446
+          ]
+        },
+        {
+          "i": "wbr6Un20",
+          "z": 20,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            488
+          ]
+        },
+        {
+          "i": "wbqHCX21",
+          "z": 21,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            494
+          ]
+        },
+        {
+          "i": "wb5C(C22",
+          "z": 22,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            536
+          ]
+        },
+        {
+          "i": "wbL27c23",
+          "z": 23,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            542
+          ]
+        },
+        {
+          "i": "wb6@WV24",
+          "z": 24,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            584
+          ]
+        },
+        {
+          "i": "wbwf]P25",
+          "z": 25,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            590
+          ]
+        },
+        {
+          "i": "wbDjGr26",
+          "z": 26,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            632
+          ]
+        },
+        {
+          "i": "wbavHj27",
+          "z": 27,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            638
+          ]
+        },
+        {
+          "i": "wbG1FI28",
+          "z": 28,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            680
+          ]
+        },
+        {
+          "i": "wbEpG329",
+          "z": 29,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            686
+          ]
+        },
+        {
+          "i": "wb]TBs30",
+          "z": 30,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            728
+          ]
+        },
+        {
+          "i": "wbl@wm31",
+          "z": 31,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            734
+          ]
+        },
+        {
+          "i": "wbdFoj32",
+          "z": 32,
+          "w": 160,
+          "h": 30,
+          "p": [
+            0,
+            776
+          ]
+        },
+        {
+          "i": "wbEgnU33",
+          "z": 33,
+          "w": 316,
+          "h": 32,
+          "p": [
+            172,
+            782
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbSQXl0": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "姓名 : ",
+            "showPrefix": true,
+            "prefix": "*"
+          },
+          "i": "wbSQXl0"
+        },
+        "wbkRW81": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.name",
+            "placeholder": "请输入姓名",
+            "validateType": "top"
+          },
+          "i": "wbkRW81"
+        },
+        "wbK*)k2": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "年龄 : ",
+            "prefix": "*"
+          },
+          "i": "wbK*)k2"
+        },
+        "wbljiT3": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.age",
+            "placeholder": "请输入年龄",
+            "validateType": "top"
+          },
+          "i": "wbljiT3"
+        },
+        "wb#f)%4": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "性别 : ",
+            "prefix": "*"
+          },
+          "i": "wb#f)%4"
+        },
+        "wb%Ud%5": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.sex",
+            "placeholder": "请输入性别",
+            "validateType": "top"
+          },
+          "i": "wb%Ud%5"
+        },
+        "wbV44D6": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "姓名 : ",
+            "prefix": "*"
+          },
+          "i": "wbV44D6"
+        },
+        "wbphdF7": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.name",
+            "placeholder": "请输入姓名",
+            "validateType": "top"
+          },
+          "i": "wbphdF7"
+        },
+        "wbjtlW8": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "年龄 : ",
+            "prefix": "*"
+          },
+          "i": "wbjtlW8"
+        },
+        "wb#eWf9": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.age",
+            "placeholder": "请输入年龄",
+            "validateType": "top"
+          },
+          "i": "wb#eWf9"
+        },
+        "wbIfQ710": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "性别 : ",
+            "prefix": "*"
+          },
+          "i": "wbIfQ710"
+        },
+        "wbR($X11": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.sex",
+            "placeholder": "请输入性别",
+            "validateType": "top"
+          },
+          "i": "wbR($X11"
+        },
+        "wbCJDd12": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "姓名 : ",
+            "prefix": "*"
+          },
+          "i": "wbCJDd12"
+        },
+        "wbEoRY13": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.name",
+            "placeholder": "请输入姓名",
+            "validateType": "top"
+          },
+          "i": "wbEoRY13"
+        },
+        "wbGAsC14": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "年龄 : ",
+            "prefix": "*"
+          },
+          "i": "wbGAsC14"
+        },
+        "wb**wh15": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.age",
+            "placeholder": "请输入年龄",
+            "validateType": "top"
+          },
+          "i": "wb**wh15"
+        },
+        "wbP)y^16": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "性别 : ",
+            "prefix": "*"
+          },
+          "i": "wbP)y^16"
+        },
+        "wb$L1e17": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.sex",
+            "placeholder": "请输入性别",
+            "validateType": "top"
+          },
+          "i": "wb$L1e17"
+        },
+        "wbPL2[18": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "年龄 : ",
+            "prefix": "*"
+          },
+          "i": "wbPL2[18"
+        },
+        "wbk*vm19": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.age",
+            "placeholder": "请输入年龄",
+            "validateType": "top"
+          },
+          "i": "wbk*vm19"
+        },
+        "wbr6Un20": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "性别 : ",
+            "prefix": "*"
+          },
+          "i": "wbr6Un20"
+        },
+        "wbqHCX21": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.sex",
+            "placeholder": "请输入性别",
+            "validateType": "top"
+          },
+          "i": "wbqHCX21"
+        },
+        "wb5C(C22": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "姓名 : ",
+            "prefix": "*"
+          },
+          "i": "wb5C(C22"
+        },
+        "wbL27c23": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.name",
+            "placeholder": "请输入姓名",
+            "validateType": "top"
+          },
+          "i": "wbL27c23"
+        },
+        "wb6@WV24": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "年龄 : ",
+            "prefix": "*"
+          },
+          "i": "wb6@WV24"
+        },
+        "wbwf]P25": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.age",
+            "placeholder": "请输入年龄",
+            "validateType": "top"
+          },
+          "i": "wbwf]P25"
+        },
+        "wbDjGr26": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "性别 : ",
+            "prefix": "*"
+          },
+          "i": "wbDjGr26"
+        },
+        "wbavHj27": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.sex",
+            "placeholder": "请输入性别",
+            "validateType": "top"
+          },
+          "i": "wbavHj27"
+        },
+        "wbG1FI28": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "姓名 : ",
+            "prefix": "*"
+          },
+          "i": "wbG1FI28"
+        },
+        "wbEpG329": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.name",
+            "placeholder": "请输入姓名",
+            "validateType": "top"
+          },
+          "i": "wbEpG329"
+        },
+        "wb]TBs30": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "年龄 : ",
+            "prefix": "*"
+          },
+          "i": "wb]TBs30"
+        },
+        "wbl@wm31": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.age",
+            "placeholder": "请输入年龄",
+            "validateType": "top"
+          },
+          "i": "wbl@wm31"
+        },
+        "wbdFoj32": {
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "text": "性别 : ",
+            "prefix": "*"
+          },
+          "i": "wbdFoj32"
+        },
+        "wbEgnU33": {
+          "w": "Input",
+          "m": "@lugia/lugia-web",
+          "v": "lasted",
+          "p": {
+            "field": "form.sex",
+            "placeholder": "请输入性别",
+            "validateType": "top"
+          },
+          "i": "wbEgnU33"
+        }
+      },
+      "id": "AddForm",
+      "lastIndex": 0,
+      "fatherId": "AddDialog",
+      "widgetId": "AddForm",
+      "group": false,
+      "templateConfig": {
+        "columnCount": 1,
+        "slotType": "GridFlow",
+        "areaMargin": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0
+        },
+        "fixedMainPadHeight": true
+      }
+    },
+    "DeleteDialog": {
+      "point": [
+        852.61,
+        531.28
+      ],
+      "width": 520,
+      "index": 3,
+      "height": 194,
+      "zIndex": 1000,
+      "type": "ChildPad",
+      "layers": [
+        {
+          "i": "CancelDelete",
+          "z": 0,
+          "w": 92,
+          "h": 36,
+          "p": [
+            150.81,
+            139.06
+          ]
+        },
+        {
+          "i": "OkDelete",
+          "z": 1,
+          "w": 92,
+          "h": 36,
+          "p": [
+            277.05,
+            138.56
+          ]
+        },
+        {
+          "i": "wbcsfl80",
+          "z": 2,
+          "w": 4,
+          "h": 12,
+          "p": [
+            20.31,
+            20.05
+          ]
+        },
+        {
+          "i": "wbcszy&0",
+          "z": 3,
+          "w": 210,
+          "h": 33,
+          "p": [
+            154.55,
+            80.5
+          ]
+        },
+        {
+          "i": "wbcBrNR6",
+          "z": 4,
+          "w": 520,
+          "h": 1,
+          "p": [
+            0.66,
+            48.04
+          ]
+        },
+        {
+          "i": "wbctVpd2",
+          "z": 5,
+          "w": 115,
+          "h": 20,
+          "p": [
+            26.45,
+            15.05
+          ]
+        }
+      ],
+      "idSeq": 0,
+      "id2WidgetInfo": {
+        "wbctVpd2": {
+          "childAreaId": "ace#]S0",
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "text": "删除",
+            "showPrefix": false,
+            "prefix": "*"
+          },
+          "i": "wbctVpd2"
+        },
+        "wbcBrNR6": {
+          "childAreaId": "ace#]S0",
+          "w": "BasicElements",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "shape": "square",
+            "viewClass": "BasicElements-theme-viewClass"
+          },
+          "i": "wbcBrNR6"
+        },
+        "wbcszy&0": {
+          "childAreaId": "ace#]S0",
+          "w": "Label",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "text": "请确认是否要删除此条数据？",
+            "showPrefix": false,
+            "prefix": "*"
+          },
+          "i": "wbcszy&0"
+        },
+        "wbcsfl80": {
+          "w": "BasicElements",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "shape": "square"
+          },
+          "i": "wbcsfl80"
+        },
+        "CancelDelete": {
+          "w": "Button",
+          "a": "PlainButton",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "disabled": false,
+            "shape": "default",
+            "type": "primary",
+            "plain": true,
+            "size": "default",
+            "text": "取消",
+            "block": false,
+            "viewClass": "PlainButton-m-theme-viewClass"
+          },
+          "i": "CancelDelete"
+        },
+        "OkDelete": {
+          "w": "Button",
+          "m": "@lugia/lugia-web",
+          "v": "1.0.0",
+          "p": {
+            "lugiaHidden": false,
+            "disabled": false,
+            "shape": "default",
+            "type": "primary",
+            "size": "default",
+            "text": "确定",
+            "block": false,
+            "viewClass": "Button-m-theme-viewClass"
+          },
+          "i": "OkDelete"
+        }
+      },
+      "id": "ace#]S0",
+      "lastIndex": 0,
+      "fatherId": "mainPad",
+      "widgetId": "DeleteDialog",
+      "group": false,
+      "templateConfig": {}
+    }
+  },
+  "forkDependencies": [],
+  "mainDependencies": [
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Button"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Modal"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Pagination"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@/components",
+      "widgetName": "SmartTable"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Input"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Breadcrumb"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "BasicElements"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Label"
+    },
+    {
+      "version": "1.0.0",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Card"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Label"
+    },
+    {
+      "version": "lasted",
+      "module": "@lugia/lugia-web",
+      "widgetName": "Input"
+    }
+  ],
+  "forkPad": {
+    "point": [
+      -24232,
+      -24661.55
+    ],
+    "width": 50000,
+    "index": 0,
+    "height": 50000,
+    "zIndex": 4000,
+    "type": "ForkPad",
+    "layers": [],
+    "idSeq": 67,
+    "id2WidgetInfo": {},
+    "id": "forkPad",
+    "lastIndex": 41,
+    "group": false,
+    "templateConfig": {}
+  },
+  "mainPad": {
+    "point": [
+      -72,
+      -165.54999999999927
+    ],
+    "width": 1680,
+    "index": 0,
+    "height": 1008,
+    "zIndex": 4000,
+    "type": "MainPad",
+    "layers": [
+      {
+        "i": "TitleButton",
+        "z": 0,
+        "w": 67,
+        "h": 32,
+        "p": [
+          556.64,
+          66.97
+        ]
+      },
+      {
+        "i": "DeleteDialog",
+        "z": 1,
+        "w": 520,
+        "h": 194,
+        "p": [
+          852.61,
+          531.28
+        ],
+        "s": {
+          "w": "r",
+          "h": "r",
+          "hr": {
+            "x": "80vh"
+          },
+          "f": {
+            "l": "r",
+            "t": "r",
+            "r": "r",
+            "b": "r"
+          }
+        }
+      },
+      {
+        "i": "AddDialog",
+        "z": 2,
+        "w": 640,
+        "h": 964,
+        "p": [
+          281.31,
+          267.01
+        ],
+        "s": {
+          "w": "r",
+          "h": "r",
+          "hr": {
+            "x": "80vh"
+          },
+          "f": {
+            "l": "r",
+            "t": "r",
+            "r": "r",
+            "b": "r"
+          }
+        }
+      },
+      {
+        "i": "Page",
+        "z": 3,
+        "w": 1617,
+        "h": 32,
+        "p": [
+          31.5,
+          956.05
+        ]
+      },
+      {
+        "i": "Table",
+        "z": 4,
+        "w": 1620,
+        "h": 810,
+        "p": [
+          32,
+          126.28
+        ],
+        "s": {
+          "w": "r",
+          "h": "a",
+          "f": {
+            "l": "r",
+            "t": "r",
+            "r": "r",
+            "b": "r"
+          }
+        }
+      },
+      {
+        "i": "QueryInput",
+        "z": 5,
+        "w": 224,
+        "h": 36,
+        "p": [
+          32,
+          70.47
+        ]
+      },
+      {
+        "i": "Router",
+        "z": 6,
+        "w": 1616,
+        "h": 30,
+        "p": [
+          32,
+          20.14
+        ]
+      },
+      {
+        "i": "AddButton",
+        "z": 7,
+        "w": 80,
+        "h": 36,
+        "p": [
+          305.18,
+          70.47
+        ]
+      }
+    ],
+    "idSeq": 91291,
+    "id2WidgetInfo": {
+      "AddDialog": {
+        "childAreaId": "AddDialog",
+        "w": "MonkeyKing",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "injectLugiad": {
+            "type": "Modal"
+          },
+          "cancelText": "取消",
+          "okText": "确定",
+          "maskClosable": true,
+          "viewClass": "Modal-theme-viewClass",
+          "width": 100,
+          "height": 30,
+          "footer": false,
+          "TargetContainer": {
+            "widgetName": "Modal",
+            "module": "@lugia/lugia-web",
+            "version": "1.0.0",
+            "props": {
+              "footer": false,
+              "lugiaHidden": false,
+              "injectLugiad": {
+                "type": "Modal"
+              },
+              "cancelText": "取消",
+              "okText": "确定",
+              "maskClosable": true,
+              "viewClass": "Modal-theme-viewClass",
+              "width": 100,
+              "height": 30
+            },
+            "defaultTheme": {
+              "Container": {
+                "normal": {
+                  "width": 520
+                }
+              }
+            },
+            "monkeyType": "Point"
+          }
+        },
+        "i": "AddDialog"
+      },
+      "Router": {
+        "w": "Breadcrumb",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "viewClass": "Breadcrumb-theme-viewClass",
+          "routes": [
+            {
+              "title": "首页"
+            },
+            {
+              "title": "用户管理"
+            },
+            {
+              "path": "/",
+              "title": "用户管理"
+            }
+          ]
+        },
+        "i": "Router"
+      },
+      "QueryInput": {
+        "w": "Input",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "disabled": false,
+          "viewClass": "Input-m-theme-viewClass",
+          "size": "default",
+          "placeholder": "请输入要查询的内容",
+          "suffix": "lugia-icon-financial_search"
+        },
+        "i": "QueryInput"
+      },
+      "Table": {
+        "w": "SmartTable",
+        "m": "@/components",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "indentSize": 15,
+          "rowKey": "key",
+          "showHeader": true,
+          "tableStyle": "bordered",
+          "viewClass": "Table-theme-viewClass",
+          "columns": [
+            {
+              "dataIndex": "name",
+              "key": "name",
+              "title": "姓名",
+              "type": "switch"
+            },
+            {
+              "dataIndex": "age",
+              "key": "age",
+              "title": "年龄"
+            },
+            {
+              "dataIndex": "sex",
+              "key": "sex",
+              "title": "性别"
+            },
+            {
+              "dataIndex": "phone",
+              "key": "phone",
+              "title": "手机号"
+            }
+          ]
+        },
+        "i": "Table"
+      },
+      "Page": {
+        "w": "Pagination",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "blockList": [
+            "Page",
+            "PageInput",
+            "Total",
+            "PageSize"
+          ],
+          "viewClass": "Pagination-theme-viewClass",
+          "align": "Right"
+        },
+        "i": "Page"
+      },
+      "DeleteDialog": {
+        "childAreaId": "ace#]S0",
+        "w": "MonkeyKing",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "injectLugiad": {
+            "type": "Modal"
+          },
+          "cancelText": "取消",
+          "okText": "确定",
+          "maskClosable": true,
+          "viewClass": "Modal-theme-viewClass",
+          "width": 100,
+          "height": 30,
+          "footer": false,
+          "TargetContainer": {
+            "widgetName": "Modal",
+            "module": "@lugia/lugia-web",
+            "version": "1.0.0",
+            "props": {
+              "footer": false,
+              "lugiaHidden": false,
+              "injectLugiad": {
+                "type": "Modal"
+              },
+              "cancelText": "取消",
+              "okText": "确定",
+              "maskClosable": true,
+              "viewClass": "Modal-theme-viewClass",
+              "width": 100,
+              "height": 30
+            },
+            "defaultTheme": {
+              "Container": {
+                "normal": {
+                  "width": 520
+                }
+              }
+            },
+            "monkeyType": "Point"
+          }
+        },
+        "i": "DeleteDialog"
+      },
+      "AddButton": {
+        "w": "Button",
+        "a": "IconButton",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "disabled": false,
+          "shape": "default",
+          "type": "primary",
+          "size": "default",
+          "icon": "lugia-icon-reminder_plus",
+          "text": "新增",
+          "block": false,
+          "viewClass": "IconButton-m-theme-viewClass"
+        },
+        "i": "AddButton"
+      },
+      "TitleButton": {
+        "w": "Button",
+        "m": "@lugia/lugia-web",
+        "v": "1.0.0",
+        "p": {
+          "lugiaHidden": false,
+          "disabled": false,
+          "shape": "default",
+          "type": "primary",
+          "size": "default",
+          "text": "hello",
+          "block": false,
+          "viewClass": "Button-m-theme-viewClass"
+        },
+        "i": "TitleButton"
+      }
+    },
+    "id": "mainPad",
+    "lastIndex": 71,
+    "group": false,
+    "templateConfig": {},
+    "children": [
+      {
+        "widgetId": "AddDialog",
+        "path": [
+          "@root"
+        ],
+        "children": [
+          {
+            "widgetId": "AddForm",
+            "path": [
+              "@root",
+              "AddDialog"
+            ]
+          }
+        ]
+      },
+      {
+        "widgetId": "DeleteDialog",
+        "path": [
+          "@root"
+        ]
+      }
+    ],
+    "backgroudColor": "#f8f8f8"
+  },
+  "themes": {
+    "widgetId2ThemeInfo": {
+      "Router": {
+        "Container": {
+          "normal": {
+            "width": 1616,
+            "background": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        "BreadcrumbItem": {
+          "ItemWrap": {
+            "normal": {
+              "padding": {
+                "top": "6",
+                "right": "",
+                "bottom": "",
+                "left": "6"
+              }
+            }
+          }
+        }
+      },
+      "QueryInput": {
+        "Container": {
+          "normal": {
+            "width": 224,
+            "height": 36,
+            "borderRadius": {
+              "topLeft": 6,
+              "topRight": 6,
+              "bottomRight": 6,
+              "bottomLeft": 6
+            }
+          }
+        }
+      },
+      "Table": {
+        "Container": {
+          "normal": {
+            "width": 1620,
+            "height": 810
+          }
+        },
+        "getValue": {
+          "Container": {
+            "normal": {
+              "width": 1149,
+              "height": 360
+            }
+          }
+        }
+      },
+      "Page": {
+        "Container": {
+          "normal": {
+            "width": 1617
+          }
+        }
+      },
+      "AddDialog": {
+        "Container": {
+          "normal": {
+            "width": 640,
+            "height": 964
+          }
+        }
+      },
+      "AddForm": {
+        "Container": {
+          "normal": {
+            "width": 640,
+            "height": 816
+          }
+        },
+        "CardTitleHeadContainer": {
+          "normal": {
+            "padding": {
+              "top": 0
+            },
+            "height": 50
+          }
+        }
+      },
+      "AddDialogTitle": {
+        "Container": {
+          "normal": {
+            "fontSize": 12,
+            "color": "#333",
+            "textAlign": "left",
+            "width": 300,
+            "height": 20,
+            "font": {
+              "size": 16
+            }
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "#333",
+            "fontSize": 12,
+            "textAlign": "left"
+          }
+        }
+      },
+      "wbIBU872": {
+        "Container": {
+          "normal": {
+            "width": 4,
+            "height": 12,
+            "background": {
+              "color": "#4d63ff"
+            },
+            "borderRadius": {
+              "topLeft": 2,
+              "topRight": 2,
+              "bottomRight": 2,
+              "bottomLeft": 2
+            }
+          }
+        }
+      },
+      "AddButton": {
+        "Container": {
+          "normal": {
+            "height": 36,
+            "width": 80
+          }
+        }
+      },
+      "OkButton": {
+        "Container": {
+          "normal": {
+            "height": 36,
+            "width": 92,
+            "borderRadius": {
+              "topLeft": 6,
+              "topRight": 6,
+              "bottomRight": 6,
+              "bottomLeft": 6
+            }
+          }
+        }
+      },
+      "CancelButton": {
+        "Container": {
+          "normal": {
+            "height": 36,
+            "width": 92,
+            "borderRadius": {
+              "topLeft": 6,
+              "topRight": 6,
+              "bottomRight": 6,
+              "bottomLeft": 6
+            }
+          }
+        }
+      },
+      "wbB6IH2": {
+        "Container": {
+          "normal": {
+            "width": 640,
+            "height": 1,
+            "background": {
+              "color": "#EFF0F4"
+            }
+          }
+        }
+      },
+      "DeleteDialog": {
+        "Container": {
+          "normal": {
+            "width": 520,
+            "height": 194
+          }
+        }
+      },
+      "wbctVpd2": {
+        "Container": {
+          "normal": {
+            "fontSize": 12,
+            "color": "#333",
+            "textAlign": "left",
+            "width": 114.4,
+            "height": 20,
+            "font": {
+              "size": 16
+            }
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "#333",
+            "fontSize": 12,
+            "textAlign": "left"
+          }
+        }
+      },
+      "wbcBrNR6": {
+        "Container": {
+          "normal": {
+            "width": 520,
+            "height": 1,
+            "background": {
+              "color": "#EFF0F4"
+            }
+          }
+        }
+      },
+      "wbcszy&0": {
+        "Container": {
+          "normal": {
+            "fontSize": 12,
+            "color": "#333",
+            "textAlign": "left",
+            "width": 210,
+            "height": 33,
+            "font": {
+              "size": 16
+            }
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "#333",
+            "fontSize": 12,
+            "textAlign": "left"
+          }
+        }
+      },
+      "OkDelete": {
+        "Container": {
+          "normal": {
+            "height": 36,
+            "width": 92,
+            "borderRadius": {
+              "topLeft": 6,
+              "topRight": 6,
+              "bottomRight": 6,
+              "bottomLeft": 6
+            }
+          }
+        }
+      },
+      "CancelDelete": {
+        "Container": {
+          "normal": {
+            "height": 36,
+            "width": 92,
+            "borderRadius": {
+              "topLeft": 6,
+              "topRight": 6,
+              "bottomRight": 6,
+              "bottomLeft": 6
+            }
+          }
+        }
+      },
+      "wbch2F&0": {
+        "Container": {
+          "normal": {
+            "width": 4,
+            "height": 12,
+            "background": {
+              "color": "#4d63ff"
+            },
+            "borderRadius": {
+              "topLeft": 2,
+              "topRight": 2,
+              "bottomRight": 2,
+              "bottomLeft": 2
+            }
+          }
+        }
+      },
+      "wbcsfl80": {
+        "Container": {
+          "normal": {
+            "width": 4,
+            "height": 12,
+            "background": {
+              "color": "#4d63ff"
+            },
+            "borderRadius": {
+              "topLeft": 2,
+              "topRight": 2,
+              "bottomRight": 2,
+              "bottomLeft": 2
+            }
+          }
+        }
+      },
+      "wbSQXl0": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbkRW81": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wbK*)k2": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbljiT3": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wb#f)%4": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wb%Ud%5": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wbV44D6": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbphdF7": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wbjtlW8": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wb#eWf9": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wbIfQ710": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbR($X11": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wbCJDd12": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbEoRY13": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wbGAsC14": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wb**wh15": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wbP)y^16": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wb$L1e17": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wbPL2[18": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbk*vm19": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wbr6Un20": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbqHCX21": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wb5C(C22": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbL27c23": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wb6@WV24": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbwf]P25": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wbDjGr26": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbavHj27": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wbG1FI28": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbEpG329": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wb]TBs30": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbl@wm31": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      },
+      "wbdFoj32": {
+        "Container": {
+          "normal": {
+            "textAlign": "right",
+            "font": {
+              "size": 14
+            },
+            "color": "#333",
+            "height": 30,
+            "lineHeight": 30,
+            "width": 160
+          }
+        },
+        "LabelPrefix": {
+          "normal": {
+            "color": "red",
+            "font": {
+              "size": 14
+            }
+          }
+        }
+      },
+      "wbEgnU33": {
+        "Placeholder": {
+          "normal": {
+            "fontSize": 14,
+            "color": "#ccc"
+          }
+        },
+        "Container": {
+          "normal": {
+            "borderRadius": {
+              "bottomLeft": 4,
+              "bottomRight": 4,
+              "topLeft": 4,
+              "topRight": 4
+            },
+            "border": {
+              "top": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "left": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "right": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              },
+              "bottom": {
+                "color": "#d8d8d8",
+                "width": 1,
+                "style": "solid"
+              }
+            },
+            "width": 316,
+            "height": 32
+          }
+        }
+      }
+    }
+  },
+  "lugiax": {
+    "page2mutation": {
+
+    },
+    "widgetId2PropsName2BindInfo": {
+      "wbkRW81": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.name",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.nameError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.nameHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbljiT3": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.age",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.ageError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.ageHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wb%Ud%5": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.sex",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.sexError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.sexHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbphdF7": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.name",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.nameError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.nameHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wb#eWf9": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.age",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.ageError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.ageHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbR($X11": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.sex",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.sexError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.sexHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbEoRY13": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.name",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.nameError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.nameHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wb**wh15": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.age",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.ageError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.ageHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wb$L1e17": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.sex",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.sexError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.sexHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbk*vm19": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.age",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.ageError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.ageHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbqHCX21": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.sex",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.sexError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.sexHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbL27c23": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.name",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.nameError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.nameHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbwf]P25": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.age",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.ageError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.ageHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbavHj27": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.sex",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.sexError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.sexHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbEpG329": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.name",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.nameError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.nameHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbl@wm31": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.age",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.ageError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.ageHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "wbEgnU33": {
+        "value": {
+          "m": "henghequery",
+          "f": "form.sex",
+          "p": "value",
+          "b": "bind"
+        },
+        "validateStatus": {
+          "m": "$__data__.model",
+          "f": "form.sexError",
+          "p": "validateStatus",
+          "b": "connect"
+        },
+        "help": {
+          "m": "$__data__.model",
+          "f": "form.sexHelp",
+          "p": "help",
+          "b": "connect"
+        }
+      },
+      "Page": {
+        "current": {
+          "m": "henghequery",
+          "f": "current",
+          "p": "current",
+          "b": "connect"
+        },
+        "total": {
+          "m": "henghequery",
+          "f": "total",
+          "p": "total",
+          "b": "connect"
+        },
+        "pageSize": {
+          "m": "henghequery",
+          "f": "pageSize",
+          "p": "pageSize",
+          "b": "connect"
+        }
+      },
+      "Table": {
+        "data": {
+          "m": "henghequery",
+          "f": "table",
+          "p": "data",
+          "b": "connect"
+        },
+        "selectRowKeys": {
+          "m": "henghequery",
+          "f": "selected",
+          "p": "selectRowKeys",
+          "b": "connect"
+        }
+      },
+      "AddDialog": {
+        "visible": {
+          "m": "$__data__.model",
+          "f": "showDialog",
+          "p": "visible",
+          "b": "connect"
+        }
+      },
+      "DeleteDialog": {
+        "visible": {
+          "m": "$__data__.model",
+          "f": "showDeleteDialog",
+          "p": "visible",
+          "b": "connect"
+        }
+      },
+      "QueryInput": {
+        "value": {
+          "m": "henghequery",
+          "f": "query",
+          "p": "value",
+          "b": "bind"
+        }
+      },
+      "AddDialogTitle": {
+        "text": {
+          "m": "$__data__.model",
+          "f": "addDialogTitle",
+          "p": "text",
+          "b": "connect"
+        }
+      }
+    },
+    "widgetId2EventName2MutationInfo": {
+      "Page": {
+        "onChange": {
+          "e": "onChange",
+          "m": "henghequery",
+          "mu": "asyncOnChangePage"
+        },
+        "onShowSizeChange": {
+          "e": "onShowSizeChange",
+          "m": "henghequery",
+          "mu": "asyncOnChangePage"
+        }
+      },
+      "Table": {
+        "onChange": {
+          "e": "onChange",
+          "m": "henghequery",
+          "mu": "onSelected"
+        }
+      }
+    },
+    "pageData": {
+      "dependenciesModels": [
+        "henghequery"
+      ],
+      "state": {
+        "form.nameError": "",
+        "form.nameHelp": "",
+        "form.ageError": "",
+        "form.ageHelp": "",
+        "form.sexError": "",
+        "form.sexHelp": "",
+        "showDialog": false,
+        "showDeleteDialog": false,
+        "formType": "edit",
+        "addDialogTitle": "表格标题",
+        "title": "用户管理"
+      },
+      "scripts": {
+        "onValidate": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/henghequery/validate"
+        },
+        "onShowDialog": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onShowDialog"
+        },
+        "onShowDeleteDialog": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onShowDeleteDialog"
+        },
+        "onHideDialog": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onHideDialog"
+        },
+        "onHideDeleteDialog": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onHideDeleteDialog"
+        },
+        "onQuery": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onQuery"
+        },
+        "onShowEditDialog": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onShowEditDialog"
+        },
+        "onAddOrEdit": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onAddOrEdit"
+        },
+        "onDeleteRecode": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onDeleteRecode"
+        },
+        "onViewRecord": {
+          "type": "Project",
+          "code": "../ue/henghe/data/query/onViewRecord"
+        }
+      },
+      "bindEvent": {
+        "wbkRW81": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbljiT3": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wb%Ud%5": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbphdF7": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wb#eWf9": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbR($X11": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbEoRY13": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wb**wh15": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wb$L1e17": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbk*vm19": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbqHCX21": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbL27c23": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbwf]P25": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbavHj27": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbEpG329": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbl@wm31": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "wbEgnU33": {
+          "onChange": [
+            "onValidate"
+          ]
+        },
+        "AddButton": {
+          "onClick": [
+            "onShowDialog"
+          ]
+        },
+        "OkButton": {
+          "onClick": [
+            "onHideDialog",
+            "onAddOrEdit"
+          ]
+        },
+        "CancelButton": {
+          "onClick": [
+            "onHideDialog"
+          ]
+        },
+        "Table": {
+          "onDelete": [
+            "onShowDeleteDialog"
+          ],
+          "onEdit": [
+            "onShowEditDialog"
+          ],
+          "onView": [
+            "onViewRecord"
+          ]
+        },
+        "CancelDelete": {
+          "onClick": [
+            "onHideDeleteDialog"
+          ]
+        },
+        "OkDelete": {
+          "onClick": [
+            "onHideDeleteDialog",
+            "onDeleteRecode"
+          ]
+        },
+        "QueryInput": {
+          "onKeyUp": [
+            "onQuery"
+          ]
+        }
+      },
+      "lifeScripts": {},
+      "model": "0e58d3c7-396c-4587-b47b-15c03257e2ff"
+    }
+  },
+  "assets": {
+    "widgetIdHasAssetPropsName": {},
+    "widgetIdHasAssetThemeName": {}
+  },
+  "widgetId2Locked": {
+    "Router": {
+      "type": "Normal"
+    },
+    "QueryInput": {
+      "type": "Normal"
+    },
+    "Table": {
+      "type": "Normal"
+    },
+    "Page": {
+      "type": "Normal"
+    }
+  },
+  "widgetId2Hidden": {},
+  "widgetId2Title": {
+    "AddForm": "新增表单",
+    "AddDialog": "新增对话框",
+    "Page": "分页",
+    "Table": "查询表格",
+    "QueryInput": "查询条件",
+    "Router": "导航",
+    "AddButton": "新增按钮",
+    "AddDialogTitle": "新增对话框标题",
+    "wbIBU872": "对话框修饰",
+    "wbB6IH2": "对话框分割线",
+    "CancelButton": "取消",
+    "OkButton": "确定",
+    "DeleteDialog": "删除对话框",
+    "CancelDelete": "取消删除",
+    "OkDelete": "确定删除",
+    "wbcBrNR6": "BasicElements",
+    "TitleButton": "标题按钮"
+  },
+  "zip": true
+}
