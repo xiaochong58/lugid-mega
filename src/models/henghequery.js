@@ -23,6 +23,7 @@ const state = {
 // 123
 //45
 //789
+//xixi
 export default lugiax.register({
   model: __LUGIAX_MODEL_DEFINE__,
   state,
