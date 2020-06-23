@@ -21,7 +21,8 @@ const state = {
   selected: [],
 };
 // 123
-//456
+//45
+//789
 export default lugiax.register({
   model: __LUGIAX_MODEL_DEFINE__,
   state,
