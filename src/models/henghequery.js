@@ -20,7 +20,8 @@ const state = {
   ],
   selected: [],
 };
-
+// 123
+//456
 export default lugiax.register({
   model: __LUGIAX_MODEL_DEFINE__,
   state,
